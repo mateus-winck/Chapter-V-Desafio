@@ -1,5 +1,5 @@
 import loginElements from './loginElements'
-import user from 'C:/Users/mateu/Documents/Cypress/ChapterV - Desafio/cypress/fixtures/ui-cadastro.json'
+import user from '../fixtures/ui-cadastro.json'
 
 
 export default new class LoginPage {
