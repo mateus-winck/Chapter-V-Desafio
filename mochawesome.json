@@ -1,0 +1,202 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-21T02:08:39.226Z",
+    "end": "2023-07-21T02:08:46.295Z",
+    "duration": 7069,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d006008d-ee62-4173-af65-24e78817fa11",
+      "title": "",
+      "fullFile": "cypress/tests/ui-login.spec.js",
+      "file": "cypress/tests/ui-login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+          "title": "Validar Fluxos de Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realiza Login com sucesso",
+              "fullTitle": "Validar Fluxos de Login Realiza Login com sucesso",
+              "timedOut": null,
+              "duration": 3341,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.CriarUser();\n_loginPage.default.RealizarLoginComSucesso();",
+              "err": {},
+              "uuid": "d4abcfcc-3ceb-4b8b-a982-4ddf4f587d8a",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar login sem inserir Email",
+              "fullTitle": "Validar Fluxos de Login Tenta realizar login sem inserir Email",
+              "timedOut": null,
+              "duration": 499,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.RealizarLoginSemInserirEmail();",
+              "err": {},
+              "uuid": "be5791a8-6cc1-48b4-a25a-0ff4739ebf11",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar login sem inserir Senha",
+              "fullTitle": "Validar Fluxos de Login Tenta realizar login sem inserir Senha",
+              "timedOut": null,
+              "duration": 710,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.RealizarLoginSemInserirSenha();",
+              "err": {},
+              "uuid": "6490d865-2aa7-4fb4-b18a-eec85265aa6c",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar login com Email inválido",
+              "fullTitle": "Validar Fluxos de Login Tenta realizar login com Email inválido",
+              "timedOut": null,
+              "duration": 794,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.RealizarLoginComEmailInválido();",
+              "err": {},
+              "uuid": "a8c40867-fa63-4d3d-b404-b86b1d72ff2d",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar login com Senha inválida",
+              "fullTitle": "Validar Fluxos de Login Tenta realizar login com Senha inválida",
+              "timedOut": null,
+              "duration": 899,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.RealizarLoginComSenhaInválida();",
+              "err": {},
+              "uuid": "aa738a4e-f5cd-4fdb-8c87-a41a6ee0f43a",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar login com email sem arroba",
+              "fullTitle": "Validar Fluxos de Login Tenta realizar login com email sem arroba",
+              "timedOut": null,
+              "duration": 729,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_loginPage.default.RealizarLoginComEmailSemArroba();",
+              "err": {},
+              "uuid": "56b8e6c2-1273-4723-8294-fb090fede1c9",
+              "parentUUID": "7989196a-b401-470d-91f2-30ed1b96fa1f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d4abcfcc-3ceb-4b8b-a982-4ddf4f587d8a",
+            "be5791a8-6cc1-48b4-a25a-0ff4739ebf11",
+            "6490d865-2aa7-4fb4-b18a-eec85265aa6c",
+            "a8c40867-fa63-4d3d-b404-b86b1d72ff2d",
+            "aa738a4e-f5cd-4fdb-8c87-a41a6ee0f43a",
+            "56b8e6c2-1273-4723-8294-fb090fede1c9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6972,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "mochawesome-report",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
